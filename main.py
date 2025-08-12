@@ -18,6 +18,7 @@ def read_cv_data(file_path):
     # Keep only header + data lines
     lines = lines[header_idx:]
 
+
     cleaned_lines = []
     for line in lines:
         # Remove '+' signs
