@@ -2,8 +2,9 @@ name: Build and Release Windows Executable
 
 on:
   push:
-    branches:
-      - main
+    tags:
+      - "v*"
+
 jobs:
   build_release:
     runs-on: windows-latest
