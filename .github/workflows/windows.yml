@@ -2,9 +2,8 @@ name: Build and Release Windows Executable
 
 on:
   push:
-    tags:
-      - "v*" # triggers on version tags like v1.0, v2.1, etc.
-
+    branches:
+      - main
 jobs:
   build_release:
     runs-on: windows-latest
