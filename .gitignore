@@ -1,2 +1,7 @@
 data
 venv
+build
+token.dev
+dist
+main.spec
+.DS_Store
